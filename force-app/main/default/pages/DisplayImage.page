@@ -1,0 +1,11 @@
+<!--
+  @description       : 
+  @author            : Rodrigo Braun
+  @group             : 
+  @last modified on  : 10-07-2022
+  @last modified by  : Rodrigo Braun
+-->
+<apex:page showHeader="false">
+    <apex:image url="https://developer.salesforce.com/files/salesforce-developer-network-logo.png">
+    </apex:image>
+</apex:page>

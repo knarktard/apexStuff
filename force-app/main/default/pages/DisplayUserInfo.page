@@ -1,0 +1,12 @@
+<!--
+  @description       : 
+  @author            : Rodrigo Braun
+  @group             : 
+  @last modified on  : 10-08-2022
+  @last modified by  : Rodrigo Braun
+-->
+<apex:page>
+
+    <h1>{!$User.FirstName}</h1>
+
+</apex:page>

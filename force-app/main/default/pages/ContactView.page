@@ -1,0 +1,16 @@
+<!--
+  @description       : 
+  @author            : Rodrigo Braun
+  @group             : 
+  @last modified on  : 10-08-2022
+  @last modified by  : Rodrigo Braun
+-->
+<apex:page standardController="Contact">
+    <apex:pageBlock>
+        First Name: {!Contact.FirstName}
+        <br/> Last Name: {!Contact.LastName}
+        <br/> Owner Email: {!Contact.Owner.Email}
+        <br/>
+    </apex:pageBlock>
+
+</apex:page>

@@ -1,0 +1,14 @@
+<!--
+  @description       : 
+  @author            : Rodrigo Braun
+  @group             : 
+  @last modified on  : 10-07-2022
+  @last modified by  : Rodrigo Braun
+-->
+<apex:page>
+  <apex:pageBlock title="User Status">
+    <apex:pageBlockSection columns="1">
+      {! $User.FirstName & ' ' & $User.LastName} ({! IF($User.isActive, $User.Username, 'inactive') })
+    </apex:pageBlockSection>
+  </apex:pageBlock>
+</apex:page>
